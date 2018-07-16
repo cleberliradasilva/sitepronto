@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+body{
+    align-items: center;
+    text-align: center;
+    overflow-x: hidden;
+}
+#bg{
+    z-index: -1;
+    position: absolute;
+    background-size: 1150px 650px;
+}
+h1{
+    font-family: 'Poiret One', cursive;
+    font-size: 375%;
+    color: white;
+    margin-top: 10px;
+}
+#p1  {
+    font-family: 'Poiret One', cursive;
+    font-size: 16pt;
+    color: white;
+}
+#icones{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+.botao{
+    font-family: 'Poiret One';
+    margin-top: 30px;
+    margin-right: 15px;
+    color: white;
+    background-color: rgba(1, 1, 1, 0.5);
+    border-radius: 7px;
+    padding: 11px;
+}
+.botao:hover{
+    display: flex;
+    background-color: rgba(1, 1, 1, 0.3);
+    border-radius: 7px;
+    padding: 11px;
+}
+h2{
+    font-family: 'Poiret One', cursive;
+}  
+#atributos{
+    display: flex;
+    font-family: 'Poiret One', cursive;
+    color: white;
+    margin-top: 317px;
+    justify-content: space-between;
+}
+.textos{
+    background-color: rgba(1, 1, 1, 0.5);
+    border-radius: 7px;
+    padding: 7px;
+    margin: 10px;
+}
+footer{
+    font-family: 'Poiret One', cursive;
+}
+a{
+    font-family: 'Poiret One', cursive;
+}
